@@ -2,6 +2,11 @@
 
 This folder contains the official starter templates for custom `m-Tablet` apps.
 
+## Links
+
+- Discord: [discord.gg/8cp3UDEeR2](https://discord.gg/8cp3UDEeR2)
+- Website: [marcinhu.tebex.io](https://marcinhu.tebex.io/)
+
 ## Included templates
 
 ### m-Tablet-vanillajs
