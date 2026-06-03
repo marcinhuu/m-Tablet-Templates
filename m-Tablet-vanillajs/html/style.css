@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+  background: transparent;
+}
+
+.template-root {
+  display: none;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  background: linear-gradient(135deg, #0f172a 0%, #1e3a8a 45%, #0ea5e9 100%);
+}
+
+body.embed-mode .template-root {
+  display: flex;
+}
+
+.template-card {
+  width: min(100%, 420px);
+  padding: 22px;
+  border-radius: 16px;
+  background: rgba(15, 23, 42, 0.72);
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  color: #e2e8f0;
+  text-align: center;
+  box-shadow: 0 14px 28px rgba(2, 6, 23, 0.35);
+}
+
+.template-card h1 {
+  margin: 0 0 8px;
+  font-size: 1.45rem;
+}
+
+.template-card p {
+  margin: 0;
+  color: #cbd5e1;
+  font-size: 0.95rem;
+}
